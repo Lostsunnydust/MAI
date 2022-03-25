@@ -1,4 +1,3 @@
-``` lisp
 (defun one-step(k l m n)
   (cond ((or (= (- k m) (- l n)))t)
         ((or (= (- k m) (- n l)))t)
@@ -23,4 +22,3 @@
      ((/= ( rem (+ k l) 2) (rem (+ m n) 2)) nil)
      (T (values-list (two-steps k l m n)))
 ))
-```
